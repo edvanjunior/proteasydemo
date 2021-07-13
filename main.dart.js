@@ -51895,18 +51895,18 @@ while(true)switch(s){case 0:p=q.d,o=0
 case 2:if(!(o<=95)){s=4
 break}s=o<10?5:7
 break
-case 5:p.push(new L.iC("assets/sample/aberta/000"+o+".png"))
+case 5:p.push(new L.iC("assets/sample/fechada/000"+o+".png"))
 s=8
-return P.aa(U.aaA(new L.iC("assets/sample/aberta/000"+o+".png"),a),$async$n2)
+return P.aa(U.aaA(new L.iC("assets/sample/fechada/000"+o+".png"),a),$async$n2)
 case 8:n="Baixando imagem "+o
 m=$.Jh
 if(m==null)H.wr(n)
 else m.$1(n)
 s=6
 break
-case 7:p.push(new L.iC("assets/sample/aberta/00"+o+".png"))
+case 7:p.push(new L.iC("assets/sample/fechada/00"+o+".png"))
 s=9
-return P.aa(U.aaA(new L.iC("assets/sample/aberta/00"+o+".png"),a),$async$n2)
+return P.aa(U.aaA(new L.iC("assets/sample/fechada/00"+o+".png"),a),$async$n2)
 case 9:n="Baixando imagem "+o
 m=$.Jh
 if(m==null)H.wr(n)
